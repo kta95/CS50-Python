@@ -28,4 +28,4 @@ with open(file_name, "r") as file:  # read the csv file from the command-line ar
         con.commit()
 
 
-con.close()  # close the database
+con.close()  # close the database connection
