@@ -26,4 +26,4 @@ for i in range(len(rows)):  # store the data form database in a list
 for line in my_list:  # print the results
     print(line)
 
-con.close()  # close the database
+con.close()  # close the database connection
